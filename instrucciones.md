@@ -8,6 +8,7 @@
 
    ```bash
    docker-compose up -d
+   ```
 
 Esto iniciará los contenedores necesarios para la aplicación.
 
@@ -22,6 +23,7 @@ Obtener la Contraseña de Airflow: Utiliza el siguiente comando para obtener la 
 
    ```bash
    docker exec -it [ID_DEL_CONTENEDOR_DEL_WEBSERVICE] cat standalone_admin_password.txt
+   ```
 
 📝Reemplaza [ID_DEL_CONTENEDOR_DEL_WEBSERVICE] con el ID del contenedor del servicio web.
 
